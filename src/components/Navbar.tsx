@@ -71,8 +71,6 @@ export default function Navbar() {
           )}
         </button>
       </header>
-
-      {/* Full-screen menu overlay */}
       <div
         className={`fixed inset-0 z-40 flex flex-col items-center justify-center transition-all duration-300 ${menuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
         style={{ backgroundColor: '#C9A96E' }}
