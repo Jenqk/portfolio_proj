@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [react(), tailwindcss(), viteSingleFile()],
-  base: '/jenqk.github.io/portfolio_proj/',
+  base: '/jenqk.github.io/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
